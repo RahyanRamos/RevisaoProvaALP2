@@ -25,6 +25,7 @@ Estudante novo = null, inicio = null, lista =  null, aux = null;
 novo = new Estudante();
 
 Write("Nome: ");
+novo.nome = ReadLine();
 
 if (inicio == null)
 {
@@ -62,3 +63,16 @@ while (aux != null)
 List<int> numeros = new List<int>();
 
 numeros.Add(10);
+
+List<Estudante> estudantes = new List<Estudante>();
+
+Estudante ne = new Estudante();
+
+ne.nome = "Ramos";
+
+estudantes.Add(ne);
+
+foreach (Estudante e in estudantes)
+{
+	Write(e.nome);
+}
