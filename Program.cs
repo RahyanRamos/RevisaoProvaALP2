@@ -24,6 +24,8 @@ static int[,] matriz(int[,] vet)
 Estudante novo = null, inicio = null, lista =  null, aux = null;
 novo = new Estudante();
 
+Write("Nome: ");
+
 if (inicio == null)
 {
 	inicio = novo;
@@ -43,4 +45,16 @@ else
 		lista = novo;
 		lista.prox = null;
 	}
+}
+
+//CONSULTA
+
+aux = inicio;
+
+while (aux != null)
+{
+    WriteLine(aux.nome);
+    WriteLine(aux.cpf);
+
+    aux = aux.prox;
 }
