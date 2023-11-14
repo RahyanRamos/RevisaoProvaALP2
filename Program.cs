@@ -15,5 +15,5 @@ for (int i = 0; i < vet.GetLength(0); i++)
 
 static int[,] matriz(int[,] vet)
 {
-	return vet;
+    return vet;
 }
