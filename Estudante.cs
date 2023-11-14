@@ -8,8 +8,8 @@ namespace RevisaoProva
 {
     public class Estudante
     {
-        string nome, cpf, curso, telefone, email;
-        string[,] disciplinas;
-        Estudante prox;
+        public string nome, cpf, curso, telefone, email;
+        public string[,] disciplinas;
+        public Estudante prox;
     }
 }
