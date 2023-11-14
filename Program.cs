@@ -58,3 +58,7 @@ while (aux != null)
 
     aux = aux.prox;
 }
+
+List<int> numeros = new List<int>();
+
+numeros.Add(10);
